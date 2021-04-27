@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class P1Actions : MonoBehaviour
-{
-    public float P1JumpSpeed;
+{ 
     public GameObject Player1;
+    private Animator Anim;
 
-    public void JumpUp()
+    private void Start()
     {
-        Player1.transform.Translate(0, P1JumpSpeed, 0);
+        Anim = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("LP"))
+        {
+            Anim.SetTrigger("LP");
+        }
     }
 }

@@ -32557,7 +32557,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15880
+  m_Name: pb_Mesh15894
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34108,7 +34108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   P1JumpSpeed: 0.001
-  Player1: {fileID: 1420811631}
+  P1JumpForwardSpeed: 0.1
+  Player1: {fileID: 0}
 --- !u!43 &1433467406
 Mesh:
   m_ObjectHideFlags: 0
